@@ -1,0 +1,16 @@
+# Security
+.env
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Cache and temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+*.csv
+!data/processed/*.csv
